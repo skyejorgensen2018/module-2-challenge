@@ -1,0 +1,61 @@
+.header1 
+{background-color: #333;}
+
+.topbutton{
+font-size: 200%;
+color:aqua;
+text-decoration: underline;
+justify-content:right;
+
+
+}
+div{
+background-image: url(chevronimagemod2.png);
+ height: 500px;
+
+
+}
+article{
+display: grid;
+grid-template-columns: 250px 1fr;
+gap: 1rem;
+}
+
+
+aside{
+background-color: antiquewhite;
+color: darkblue;
+justify-content: space-between;
+flex-direction: column;
+text-align: left;
+border-right: 1px solid blue;
+
+}
+
+img{
+
+    height: 100px;
+}
+.pro{
+text-align: center;
+border-style: solid;
+padding: 10px;
+flex: 1 0 200px;
+
+}
+#section1{
+flex: 2 1 200px;
+
+}
+
+@media screen and (max-width: 992px){
+main{ background-color: lightgoldenrodyellow;}
+}
+
+@media screen and (max-width: 768px){
+main{background-color: lightslategray;}
+
+}
+@media screen and (max-width: 576px){
+    main{background-color: gainsboro;}
+}
